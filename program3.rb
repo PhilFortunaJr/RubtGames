@@ -14,7 +14,7 @@
 
 
 def choose
-  puts "Do you like programming? Yes, no, or maybe please."
+  puts "Do you like programming? Yes, no, or maybe only, please."
   choice = gets.chomp
   case choice.downcase
   when "yes"
